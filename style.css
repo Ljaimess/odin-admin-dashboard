@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 18% 82%;
+}
+
+.left-side {
+    background-color: darkgreen;
+    height: 100vh;
+    
+}
+
+.right-side {
+    background-color: slategray
+}
+
+header {
+    background-color: brown;
+    height: 15vh;
+    display: flex;
+}
+
+.dash-container {
+    background-color: deepskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dash-container>svg {
+    height: 30px;
+    width: 30px;
+}
+
+.link-tabs {
+    background-color: darkmagenta;
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    margin: 0%;
+}
+
+.link-tabs>svg {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
